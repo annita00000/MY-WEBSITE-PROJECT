@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Project</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            marquee{
+                width: 100%;
+                padding: 100 0px;
+                background-color: aqua;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1><cite>WELCOME TO ANN'S WEBSITE</cite></h1>
+        </header>
+        <img src="https://scontent.fnbo16-1.fna.fbcdn.net/v/t39.30808-6/318615809_166988246028845_4445072372510125829_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=yfq3oHebuKAAX8BomIM&_nc_ht=scontent.fnbo16-1.fna&oh=00_AfB2jZwylte3797UgavIrN7b37iOhrxlcJ9rLjKfn98qpg&oe=641564EA" alt="Ann's profile">
+        <div class="menu">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact-me.html">CONTACT</a></li>
+                <li><a href="hobbies.html">HOBBIES</a></li>
+                <li><a href="books and teachings.html">REFERENCE</a></li>
+            </ul>
+        </div>
+        
+        <div class="search">
+            <input class="srch"type="search"name="" placeholder="Type To Text">
+                <a href="#"><button class="btn">search</button></a>
+        </div>
+        <div class="content">
+            <h1><marquee direction="down">WEB DESIGN &<br><span> DEVELOPMENT</span><br>COURSE</marquee></h1>
+            <p class="par"><blockquote>university professor
+                Department of Computer science.
+                 Iam a professor at University of Nairobi and web developer.<br>
+                 mi research foccuses on the interface of networks and information,
+                  with an emphasis on the social and information networks
+                <br>
+                My work has been supported by an NSF carrer award.<br>
+                Currently am a lecturer at the University of Nairobi
+                Iam a member of the National Assembly of sciences, and the American acedamy of Arts and sciences</blockquote></p>
+               
+                <button class="cn"><a href="#"><q>JOIN US</q></a></button>
+
+                <div class="form">
+                    <h2>Login Here</h2>
+                  <input type="email" name="email"placeholder="Enter Your Email Here">
+                  <input type="password" name="password"placeholder="Enter Your Password Here">
+                 <button class="btnn"><a href="#">Login</a></button>
+                  
+                 <p class="link">Don't have an account<br>
+                 <a href="#">Sign up</a> here</a></p>
+                 <p class="liw">Login in with</p> 
+                 </div>
+                 </div>
+                <footer>
+                    <h1><marquee>Thenk you for visiting my website</marquee></h1>
+                </footer>
+            </div>
+    </body>
+</html>
+</php>
